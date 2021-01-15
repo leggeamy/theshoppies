@@ -14,20 +14,25 @@
             <h1 class="title">shoppies</h1>
         </div> -->
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="./assets/video/video2.mp4" type="video/mp4">
+          <source src="./assets/video/video3.mp4" type="video/mp4">
         </video>
         <div class="container h-100">
           <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
                 <h1 class="title">shoppies</h1> <!--may have to switch this out for an image-->
               <div class="input-group input-group-lg mb-3">
-                <input type="text" class="form-control" placeholder="enter a movie title" aria-label="enter a movie title" aria-describedby="basic-addon2">
+                <input type="text" class="form-control" placeholder="enter a movie title" id="movieSearch" aria-label="enter a movie title" aria-describedby="basic-addon2"/>
                 <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="button">search</button>
                 </div>
           </div>
         </div>
       </header>
+
+      <section id="results" class="row">
+          <div id="search-results-display">
+          </div>
+      </section>
 
       <section class="nominees-title">
         <div class="container">
@@ -66,6 +71,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
